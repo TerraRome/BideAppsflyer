@@ -13,7 +13,7 @@ appsFlyer.initSdk(
   {
     devKey: 't8opjhhgvjhBeaZVxqHP3G',
     isDebug: true,
-    //onInstallConversionDataListener: false, //Optional
+    onInstallConversionDataListener: true, //Optional
     //onDeepLinkListener: true, //Optional
   },
   (res) => {
